@@ -3,4 +3,4 @@
 import numpy as np
 
 #Load .csv into numpy array
-specdata = np.loadtxt('
+specdata = np.loadtxt('SN2014J.csv', delimiter=",", skiprows=
