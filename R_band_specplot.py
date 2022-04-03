@@ -3,7 +3,7 @@
 import numpy as np
 
 #Load .csv into numpy array
-specdata = np.loadtxt('1987AspecU.csv', delimiter=",", skiprows=1)
+specdata = np.loadtxt('1987AspecR.csv', delimiter=",", skiprows=1)
 
 #Print array shape
 print("Shape of array =", np.shape(specdata))
@@ -19,8 +19,8 @@ import pylab as plt
 plt.plot(time, magnitude)
 plt.xlabel('Time(s)')
 plt.ylabel('Magnitude')
-plt.title('Magnitude vs. time in the U band of 1987A')
+plt.title('Magnitude vs. time in the R band of 1987A')
 plt.grid(True)
 
-plt.savefig("U_magvstime_matplotlib.png")
+plt.savefig("R_magvstime_matplotlib.png")
 
