@@ -1,0 +1,11 @@
+--2022-03-26 20:38:48--  https://api.astrocats.space/SN2014J/spectra/time+data?time=56703.2
+Resolving api.astrocats.space (api.astrocats.space)... 66.228.36.122, 2600:3c03::f03c:91ff:fe70:5df3
+Connecting to api.astrocats.space (api.astrocats.space)|66.228.36.122|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 29 [application/json]
+Saving to: ‘time+data?time=56703.2’
+
+time+data?time=56703.2          0%[                                                  ]       0  --.-KB/s               time+data?time=56703.2        100%[=================================================>]      29  --.-KB/s    in 0s      
+
+2022-03-26 20:38:53 (294 KB/s) - ‘time+data?time=56703.2’ saved [29/29]
+
