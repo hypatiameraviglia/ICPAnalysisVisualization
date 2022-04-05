@@ -5,6 +5,14 @@ From these magnitude vs. time plots, we can calculate a linear fit to the climb 
 
 Below are plots of the U band of 1987A and 2014J with a linear fit. The U band has been selected because in both lightcurves, its rise is very linear and free of the "shoulder" observed in the 2014J spectrum. For both supernovae, a range has been selected to focus only on the specific, initial climb. For 1987A, this is 47400 through 47800 seconds. For 2014J, this is 56700 through 56720 seconds.
 
+This slope may be described by the following equation:
+
+\begin{equation}\label{fit_eq}
+fit = m*t + b
+\end{equation}
+
+where the fit is the linear approximation of the lightcurve in this specific range, m is the slope, t is time in seconds, and b is the intercept with the magnitude axis. It is important to note that equation (\ref{fit_eq}) is first-order only, and thus is a very simple approximation of lightcurve.
+
 \begin{figure}[htp]
 	\includegraphics[width=0.5\textwidth]{1987A_U_linear.png}
 	\caption{Linear fit to magnitude vs. time in U band of 1987A. Slope for 1987A = 0.0103319.}
