@@ -1,3 +1,4 @@
+#A list of time, magnitude, and bands for 1987A.
 event,time,magnitude,band
 SN1987A,46849.44,6.36,V
 SN1987A,46849.62,6.11,V
