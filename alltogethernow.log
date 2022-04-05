@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  4 APR 2022 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  5 APR 2022 05:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -104,33 +104,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
-) (./background.tex) (./TypeIa.tex
-<2014J_U_magvstime.png, id=1, 462.528pt x 346.896pt>
+) (./background.tex [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./TypeIa.tex
+<2014J_U_magvstime.png, id=11, 462.528pt x 346.896pt>
 File: 2014J_U_magvstime.png Graphic file (type png)
 <use 2014J_U_magvstime.png>
 Package pdftex.def Info: 2014J_U_magvstime.png  used on input line 5.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<2014J_B_magvstime.png, id=3, 462.528pt x 346.896pt>
+<2014J_B_magvstime.png, id=13, 462.528pt x 346.896pt>
 File: 2014J_B_magvstime.png Graphic file (type png)
 <use 2014J_B_magvstime.png>
 Package pdftex.def Info: 2014J_B_magvstime.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<2014J_V_magvstime.png, id=4, 462.528pt x 346.896pt>
+<2014J_V_magvstime.png, id=14, 462.528pt x 346.896pt>
 File: 2014J_V_magvstime.png Graphic file (type png)
 <use 2014J_V_magvstime.png>
 Package pdftex.def Info: 2014J_V_magvstime.png  used on input line 13.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<2014J_R_magvstime.png, id=5, 462.528pt x 346.896pt>
+<2014J_R_magvstime.png, id=15, 462.528pt x 346.896pt>
 File: 2014J_R_magvstime.png Graphic file (type png)
 <use 2014J_R_magvstime.png>
 Package pdftex.def Info: 2014J_R_magvstime.png  used on input line 17.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<2014J_I_magvstime.png, id=6, 462.528pt x 346.896pt>
+<2014J_I_magvstime.png, id=16, 462.528pt x 346.896pt>
 File: 2014J_I_magvstime.png Graphic file (type png)
 <use 2014J_I_magvstime.png>
 Package pdftex.def Info: 2014J_I_magvstime.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<2014J_all_magvstime.png, id=7, 462.528pt x 346.896pt>
+<2014J_all_magvstime.png, id=17, 462.528pt x 346.896pt>
 File: 2014J_all_magvstime.png Graphic file (type png)
 <use 2014J_all_magvstime.png>
 Package pdftex.def Info: 2014J_all_magvstime.png  used on input line 25.
@@ -154,9 +156,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./TypeIIp.tex [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+) (./TypeIIp.tex
 <1987A_U_magvstime.png, id=18, 462.528pt x 346.896pt>
 File: 1987A_U_magvstime.png Graphic file (type png)
 <use 1987A_U_magvstime.png>
@@ -206,30 +206,48 @@ Package pdftex.def Info: 1987A_all_magvstime.png  used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./comparison.tex) (./conclusion.tex) (./bib.tex) [2 <./2014J_U_magvstime.png
->] [3 <./2014J_B_magvstime.png>] [4 <./2014J_V_magvstime.png>] [5 <./2014J_R_ma
-gvstime.png>] [6 <./2014J_I_magvstime.png>] [7 <./2014J_all_magvstime.png>]
-[8 <./1987A_U_magvstime.png>] [9 <./1987A_B_magvstime.png>] [10 <./1987A_V_magv
-stime.png>] [11 <./1987A_R_magvstime.png>] [12 <./1987A_I_magvstime.png>]
-[13 <./1987A_all_magvstime.png>] (./alltogethernow.aux) ) 
+) (./comparison.tex
+<1987A_U_linear.png, id=24, 462.528pt x 346.896pt>
+File: 1987A_U_linear.png Graphic file (type png)
+<use 1987A_U_linear.png>
+Package pdftex.def Info: 1987A_U_linear.png  used on input line 9.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<2014J_U_linear.png, id=25, 462.528pt x 346.896pt>
+File: 2014J_U_linear.png Graphic file (type png)
+<use 2014J_U_linear.png>
+Package pdftex.def Info: 2014J_U_linear.png  used on input line 14.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]) (./conclusion.tex) (./bib.tex) [3 <./2014J_U_magvstime.png>] [4 <./2014J_B
+_magvstime.png>] [5 <./2014J_V_magvstime.png>] [6 <./2014J_R_magvstime.png>]
+[7 <./2014J_I_magvstime.png>] [8 <./2014J_all_magvstime.png>] [9 <./1987A_U_mag
+vstime.png>] [10 <./1987A_B_magvstime.png>] [11 <./1987A_V_magvstime.png>]
+[12 <./1987A_R_magvstime.png>] [13 <./1987A_I_magvstime.png>] [14 <./1987A_all_
+magvstime.png>] [15 <./1987A_U_linear.png>] [16 <./2014J_U_linear.png>]
+(./alltogethernow.aux) ) 
 Here is how much of TeX's memory you used:
- 1256 strings out of 483183
- 19043 string characters out of 5966292
- 247597 words of memory out of 5000000
- 16278 multiletter control sequences out of 15000+600000
+ 1268 strings out of 483183
+ 19297 string characters out of 5966292
+ 251597 words of memory out of 5000000
+ 16288 multiletter control sequences out of 15000+600000
  535978 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,6n,25p,523b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb>
-Output written on alltogethernow.pdf (13 pages, 425538 bytes).
+ 30i,6n,25p,983b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on alltogethernow.pdf (16 pages, 492514 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
