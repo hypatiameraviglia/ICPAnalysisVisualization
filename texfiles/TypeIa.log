@@ -1,0 +1,90 @@
+This is TeX, Version 3.14159265 (TeX Live 2019/Debian) (preloaded format=tex 2022.3.23)  8 MAY 2022 09:35
+**TypeIa.tex
+(./TypeIa.tex
+! Undefined control sequence.
+l.2 \section
+            {Type Ia Example: 2014J}
+? q
+OK, entering \batchmode...
+! Undefined control sequence.
+l.3 ...lateau of all the types, post-cooling \cite
+                                                  {CosmosTypeIa}. We plot th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.4 \begin
+          {figure}[htp]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 ^^I\includegraphics
+                       [width=0.5\textwidth]{2014J_U_magvstime.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 ^^I\includegraphics[width=0.5\textwidth
+                                           ]{2014J_U_magvstime.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.5 ...includegraphics[width=0.5\textwidth]{2014J_
+                                                  U_magvstime.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.5 ...cludegraphics[width=0.5\textwidth]{2014J_U_
+                                                  magvstime.png}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+l.5 ...width=0.5\textwidth]{2014J_U_magvstime.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.6 ^^I\caption
+               {Change in brightness of SN2014J across time in the U band.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \end 
+l.7 \end
+        {figure}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [1] )
+(\end occurred inside a group at level 1)
+Output written on TypeIa.dvi (1 page, 1184 bytes).

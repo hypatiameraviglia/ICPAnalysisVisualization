@@ -1,0 +1,50 @@
+%Comparison.tex
+\section{Calculating area with the trapezoidal methods}
+
+In instances where analytical integration is inefficient or impossible, numerical integration allows us to get pretty dang close (scientific term) to the correct answer. There's a variety of methods for numerical integration, each with different accuracies and executing efficiencies, but for our purposes here we have selected the trapezoidal method of integration. 
+
+Using the trapezoidal methods for estimating integration, we can find the area beneath these magnitude vs. time curves. It's important to note that because the data is \textit{magnitude}, a constructed unit, and not luminosity, this integration doesn't clue us in to any physically significant information. Still, this method is an interesting demonstration of the trapezoidal integration method.
+
+This method can be boiled down to finding the area of a smallest-possible trapezoid beneath the curve, with corners at x[i], x[i+1], y[i], and y[i+1]. Here our x is time and our y is magnitude. The counter variable i allows us to step through the data each x,y pair at a time. The equation used is 
+
+\begin{equation}
+	\label{fit_eq}
+	total area += (time[i+1] - time[i])*0.5*(magnitude[i+1]+magnitude[i])
+\end{equation}
+
+for each i.
+
+For each filter of 1987A and 2014J, the total area was calculated using this equation and the numpy.trapz function. The results and the computation times between the two methods are compared. Below are the tabulated results:
+
+\begin{center}
+	\begin{tabular}{ |c|c|c|c|c| }
+		\hline
+		Data set & Area with eq. & Area with np.trapz & Time with eq. & Time with np.trapz \\
+		\hline
+		1987A B & 18681.23524000001 & 18681.235240000016 & 0.504 & 0.511 \\
+		\hline
+		1987A I	& 16272.21509499989 & 16272.21509499999 & 0.497 & 0.509 \\
+		\hline
+		1987A R & 16500.97514499999 & 16500.975144999986 & 0.517 & 0.514 \\
+		\hline
+		1987A U	& 17102.96229000001 & 17102.962290000014 & 0.509 & 0.527 \\
+		\hline
+		1987A V & 18689.896174999987 & 18689.89617499999 & 0.508 & 0.513 \\
+		\hline
+		2014J B & 1720.4177646009648 & 1720.4177646009646 & 0.516 & 0.498 \\
+		\hline
+		2014J I & 1362.3374054999867 & 1362.3374054999846 & 0.498 & 0.524 \\
+		\hline
+		2014J R & 1437.7346721034650 & 1437.7346721034646 & 0.583 & 0.511 \\
+		\hline
+		2014J U & 1207.299325404308 & 1207.299325404308 & 0.504 & 0.499 \\
+		\hline
+		2014J V & 1499.9410649607576 & 1499.9410649607576 & 0.509 & 0.510 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+Because np.trapz is written in lower-level languages like C or Fortran, it is compiled to run, rather than interpreted like a Python script. Typically, compiled scripts run lightning fast compared to interpreted languages. Above we observe instances of both the equation script running in less time and np.trapz running in less time; it's important to note that the execution time varied wildly between each iteration. For example, for the same script with the same commands, we observe a deviation of execution times of more than half a second.
+
+When composing code, efficiency is a balance between development time and execution time. Complexity of the solution, frequency with which the script will be run, and time and precision constraints are all important factors. High-level langauges like Python are, for most developers, faster and easier to write in: it's closer visually and grammatically to human languages, and thus it's less effort to "think" in high-level languages. Low-level languages execute more quickly, but are slower to write with more propensity for small, nearly inscrutable errors. Functions like trapz in modules like numpy are a useful compromise: referencing quick, low-level scripts with the readability of high-level languages.
+

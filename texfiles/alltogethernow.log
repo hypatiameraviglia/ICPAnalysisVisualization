@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  5 APR 2022 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.23)  8 MAY 2022 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -176,27 +176,30 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count186
 \l__pdf_internal_box=\box45
 )
-(./alltogethernow.aux)
+(./alltogethernow.aux
+
+LaTeX Warning: Label `fit_eq' multiply defined.
+
+)
 \openout1 = `alltogethernow.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count187
 \scratchdimen=\dimen141
@@ -219,7 +222,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -232,20 +235,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count193
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
 (./alltogethernow.out) (./alltogethernow.out)
 \@outlinefile=\write3
 \openout3 = `alltogethernow.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 14.
  (./abstract.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
@@ -256,32 +259,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 (./TypeIa.tex
-<2014J_U_magvstime.png, id=42, 462.528pt x 346.896pt>
+<2014J_U_magvstime.png, id=46, 462.528pt x 346.896pt>
 File: 2014J_U_magvstime.png Graphic file (type png)
 <use 2014J_U_magvstime.png>
 Package pdftex.def Info: 2014J_U_magvstime.png  used on input line 5.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<2014J_B_magvstime.png, id=44, 462.528pt x 346.896pt>
+<2014J_B_magvstime.png, id=48, 462.528pt x 346.896pt>
 File: 2014J_B_magvstime.png Graphic file (type png)
 <use 2014J_B_magvstime.png>
 Package pdftex.def Info: 2014J_B_magvstime.png  used on input line 9.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<2014J_V_magvstime.png, id=45, 462.528pt x 346.896pt>
+<2014J_V_magvstime.png, id=49, 462.528pt x 346.896pt>
 File: 2014J_V_magvstime.png Graphic file (type png)
 <use 2014J_V_magvstime.png>
 Package pdftex.def Info: 2014J_V_magvstime.png  used on input line 13.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<2014J_R_magvstime.png, id=46, 462.528pt x 346.896pt>
+<2014J_R_magvstime.png, id=50, 462.528pt x 346.896pt>
 File: 2014J_R_magvstime.png Graphic file (type png)
 <use 2014J_R_magvstime.png>
 Package pdftex.def Info: 2014J_R_magvstime.png  used on input line 17.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<2014J_I_magvstime.png, id=47, 462.528pt x 346.896pt>
+<2014J_I_magvstime.png, id=51, 462.528pt x 346.896pt>
 File: 2014J_I_magvstime.png Graphic file (type png)
 <use 2014J_I_magvstime.png>
 Package pdftex.def Info: 2014J_I_magvstime.png  used on input line 21.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<2014J_all_magvstime.png, id=48, 462.528pt x 346.896pt>
+<2014J_all_magvstime.png, id=52, 462.528pt x 346.896pt>
 File: 2014J_all_magvstime.png Graphic file (type png)
 <use 2014J_all_magvstime.png>
 Package pdftex.def Info: 2014J_all_magvstime.png  used on input line 25.
@@ -289,79 +292,89 @@ Package pdftex.def Info: 2014J_all_magvstime.png  used on input line 25.
 ) (./TypeIIp.tex [2 <./2014J_U_magvstime.png>] [3 <./2014J_B_magvstime.png> <./
 2014J_V_magvstime.png> <./2014J_R_magvstime.png>] [4 <./2014J_I_magvstime.png> 
 <./2014J_all_magvstime.png>]
-<1987A_U_magvstime.png, id=75, 462.528pt x 346.896pt>
+<1987A_U_magvstime.png, id=79, 462.528pt x 346.896pt>
 File: 1987A_U_magvstime.png Graphic file (type png)
 <use 1987A_U_magvstime.png>
 Package pdftex.def Info: 1987A_U_magvstime.png  used on input line 7.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<1987A_B_magvstime.png, id=76, 462.528pt x 346.896pt>
+<1987A_B_magvstime.png, id=80, 462.528pt x 346.896pt>
 File: 1987A_B_magvstime.png Graphic file (type png)
 <use 1987A_B_magvstime.png>
 Package pdftex.def Info: 1987A_B_magvstime.png  used on input line 11.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<1987A_V_magvstime.png, id=77, 462.528pt x 346.896pt>
+<1987A_V_magvstime.png, id=81, 462.528pt x 346.896pt>
 File: 1987A_V_magvstime.png Graphic file (type png)
 <use 1987A_V_magvstime.png>
 Package pdftex.def Info: 1987A_V_magvstime.png  used on input line 15.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<1987A_R_magvstime.png, id=78, 462.528pt x 346.896pt>
+<1987A_R_magvstime.png, id=82, 462.528pt x 346.896pt>
 File: 1987A_R_magvstime.png Graphic file (type png)
 <use 1987A_R_magvstime.png>
 Package pdftex.def Info: 1987A_R_magvstime.png  used on input line 19.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<1987A_I_magvstime.png, id=79, 462.528pt x 346.896pt>
+<1987A_I_magvstime.png, id=83, 462.528pt x 346.896pt>
 File: 1987A_I_magvstime.png Graphic file (type png)
 <use 1987A_I_magvstime.png>
 Package pdftex.def Info: 1987A_I_magvstime.png  used on input line 23.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<1987A_all_magvstime.png, id=80, 462.528pt x 346.896pt>
+<1987A_all_magvstime.png, id=84, 462.528pt x 346.896pt>
 File: 1987A_all_magvstime.png Graphic file (type png)
 <use 1987A_all_magvstime.png>
 Package pdftex.def Info: 1987A_all_magvstime.png  used on input line 27.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
 ) (./comparison.tex [5 <./1987A_U_magvstime.png> <./1987A_B_magvstime.png>] [6 
 <./1987A_V_magvstime.png> <./1987A_R_magvstime.png> <./1987A_I_magvstime.png>]
-<1987A_U_linear.png, id=101, 462.528pt x 346.896pt>
+<1987A_U_linear.png, id=105, 462.528pt x 346.896pt>
 File: 1987A_U_linear.png Graphic file (type png)
 <use 1987A_U_linear.png>
 Package pdftex.def Info: 1987A_U_linear.png  used on input line 17.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<2014J_U_linear.png, id=102, 462.528pt x 346.896pt>
+<2014J_U_linear.png, id=106, 462.528pt x 346.896pt>
 File: 2014J_U_linear.png Graphic file (type png)
 <use 2014J_U_linear.png>
 Package pdftex.def Info: 2014J_U_linear.png  used on input line 22.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-) (./conclusion.tex) [7 <./1987A_all_magvstime.png> <./1987A_U_linear.png>] (./
-alltogethernow.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
- [8 <./2014J_U_linear.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+) (./trapezoidal.tex [7 <./1987A_all_magvstime.png> <./1987A_U_linear.png>]
+Overfull \hbox (75.86206pt too wide) in paragraph at lines 20--45
+ [] 
+ []
+
+[8 <./2014J_U_linear.png>]) (./conclusion.tex) (./alltogethernow.bbl [9])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
  (./alltogethernow.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
 Package rerunfilecheck Info: File `alltogethernow.out' has not changed.
-(rerunfilecheck)             Checksum: CA6221149CC68B32EECBD3BC626420F6;310.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+(rerunfilecheck)             Checksum: F40B862ED286EFC6548391E74126A435;390.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
  ) 
 Here is how much of TeX's memory you used:
- 5329 strings out of 483183
- 82960 string characters out of 5966292
- 335457 words of memory out of 5000000
- 20210 multiletter control sequences out of 15000+600000
- 535978 words of font info for 36 fonts, out of 8000000 for 9000
+ 5340 strings out of 483183
+ 83084 string characters out of 5966292
+ 338518 words of memory out of 5000000
+ 20213 multiletter control sequences out of 15000+600000
+ 536324 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,6n,30p,1020b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,30p,1020b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on alltogethernow.pdf (8 pages, 509336 bytes).
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb>
+Output written on alltogethernow.pdf (10 pages, 525584 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
